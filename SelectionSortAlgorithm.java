@@ -19,7 +19,8 @@ public class SelectionSortAlgorithm {
 			arr[index] = temp;
 		}
 	}
-	
+
+	// finding index of minimum element
 	public static int minIndex(int[] arr, int i) {
 		int min = i;
 		for (int j = i+1; j < arr.length; j++) {
